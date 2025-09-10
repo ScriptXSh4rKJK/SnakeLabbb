@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: snakelab
+    env: python
+    rootDir: speeky_messenger/py_learn_site
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    autoDeploy: true
